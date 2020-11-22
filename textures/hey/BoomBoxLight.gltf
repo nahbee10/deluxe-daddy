@@ -1,0 +1,169 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.3.48",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "BoomBox"
+        }
+    ],
+    "materials" : [
+        {
+            "emissiveFactor" : [
+                1,
+                1,
+                1
+            ],
+            "emissiveTexture" : {
+                "index" : 0,
+                "texCoord" : 0
+            },
+            "name" : "BoomBox_Mat",
+            "normalTexture" : {
+                "index" : 1,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 2,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 3,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "BoomBox",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        },
+        {
+            "source" : 2
+        },
+        {
+            "source" : 3
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "256Emissive",
+            "uri" : "txt/256Emissive.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "256Normal",
+            "uri" : "txt/256Normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "256Metal",
+            "uri" : "txt/256Metal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "256Base",
+            "uri" : "txt/256Base.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 2324,
+            "max" : [
+                0.009921154007315636,
+                0.008243821561336517,
+                0.010076245293021202
+            ],
+            "min" : [
+                -0.009921154007315636,
+                -0.00977163016796112,
+                -0.010076245293021202
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 2324,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 2324,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 12198,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 27888,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 27888,
+            "byteOffset" : 27888
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18592,
+            "byteOffset" : 55776
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24396,
+            "byteOffset" : 74368
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 98764,
+            "uri" : "BoomBoxLight.bin"
+        }
+    ]
+}
